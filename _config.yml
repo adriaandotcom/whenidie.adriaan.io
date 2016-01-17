@@ -1,0 +1,13 @@
+title:
+  'Maybe handy for when I die'
+description:
+  'Because death can just show up, here are my wishes.'
+author:
+  name: 'Adriaan van Rossum'
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: base
