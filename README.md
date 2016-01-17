@@ -2,4 +2,4 @@
 
 ![](https://raw.githubusercontent.com/harianus/whenidie.adriaan.io/gh-pages/images/coffin.png)
 
-Before it is too late
+Just wrote my will before it is too late.
