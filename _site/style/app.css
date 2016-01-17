@@ -10,6 +10,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
+  margin-bottom: 100px;
   width: 42em;
   max-width: 80%; }
 
@@ -43,6 +44,12 @@ p {
   p.date {
     font-size: 10px; }
 
+a {
+  color: #111;
+  text-decoration: underline; }
+  a:hover {
+    text-decoration: none; }
+
 @media (min-width: 600px) {
   section {
     -webkit-column-gap: 40px;
@@ -51,4 +58,6 @@ p {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+    section p:last-of-type {
+      margin-bottom: 0; } }

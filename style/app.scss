@@ -17,6 +17,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
+  margin-bottom: 100px;
   width: 42em;
   max-width: 80%;
 }
@@ -46,7 +47,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-
 p {
   font-size: 14px;
   line-height: 26px;
@@ -56,6 +56,15 @@ p {
 
   &.date {
     font-size: 10px;
+  }
+}
+
+a {
+  color: $text-dark;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
   }
 }
 
@@ -70,5 +79,9 @@ section {
     column-count: 2;
 
     margin-bottom: 24px;
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
