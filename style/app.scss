@@ -91,3 +91,19 @@ img {
   width: 100vw;
   display: block;
 }
+
+.ribbon {
+  display: block;
+  background-color: $text-dark;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: $background-color;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 12px;
+
+  @media(max-width: 500px) {
+    display: none;
+  }
+}
