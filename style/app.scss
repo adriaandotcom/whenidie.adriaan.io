@@ -87,9 +87,13 @@ section {
   }
 }
 
-img {
+img.me {
   width: 100vw;
   display: block;
+}
+
+img.emoji {
+  vertical-align: sub;
 }
 
 .ribbon {
